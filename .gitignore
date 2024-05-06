@@ -46,3 +46,7 @@ CMakeUserPresets.json
 
 # System files
 .DS_Store
+
+# Zig
+zig-cache/
+zig-out/
