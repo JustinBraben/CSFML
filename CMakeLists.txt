@@ -20,6 +20,12 @@ project(CSFML VERSION 3.0.0)
 # https://cmake.org/cmake/help/latest/module/GNUInstallDirs.html
 include(GNUInstallDirs)
 
+include(FetchContent)
+FetchContent_Declare(SFML
+    GIT_REPOSITORY https://github.com/SFML/SFML.git
+    GIT_TAG 2.6.x)
+FetchContent_MakeAvailable(SFML)
+
 # include the configuration file
 include(${PROJECT_SOURCE_DIR}/cmake/Config.cmake)
 

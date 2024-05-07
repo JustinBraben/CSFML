@@ -1,0 +1,18 @@
+.{
+    .name = "csfml",
+    .version = "2.6.0",
+    .dependencies = .{
+        .sfml = .{
+            .url = "https://github.com/JustinBraben/SFML/archive/4cd4a9ea45ec42da6cb7ce67fd1a5d334ab4a2bb.tar.gz",
+            .hash = "1220dfb7d83cf7009483557633b438d3852aa89c4a42276c648372973f8b3eb10b5e",
+        },
+    },
+    .paths = .{
+        "LICENSE",
+        "README",
+        "build.zig",
+        "build.zig.zon",
+        "include",
+        "src",
+    },
+}
